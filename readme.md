@@ -6,7 +6,7 @@
 - Download the source;
 - Open a CMD / PowerShell / Terminal where you unpacked the source;
 - Run `npm i` if its your first time or when source has changed;
-- Run any of the commands below: `npm run <command> <arguments for command>`
+- Run any of the commands below: `npm start <command> <arguments for command>`
 
 ## Commands
 
