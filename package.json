@@ -1,49 +1,49 @@
 {
-  "name": "loud-toolchain",
-  "version": "1.0.0",
-  "description": "LOUD Toolchain",
-  "main": "./lib/index.js",
-  "private": true,
-  "scripts": {
-    "start": "nodemon src/index.ts",
-    "create": "npm run build && npm run test",
-    "build": "tsc -p .",
-    "test": "npm i -g && loud-toolchain",
-    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
-  },
-  "author": {
-    "email": "dont@mail.com",
-    "name": "Roy Derks",
-    "url": "https://www.github.com/RAJDerks"
-  },
-  "license": "MIT",
-  "bin": {
-    "loud-toolchain": "./lib/index.js"
-  },
-  "dependencies": {
-    "@types/chalk": "^2.2.0",
-    "@types/clear": "^0.1.0",
-    "@types/figlet": "^1.2.0",
-    "@types/mv": "^2.1.0",
-    "@types/node": "^10.12.10",
-    "binary": "^0.3.0",
-    "buffer-to-arraybuffer": "0.0.5",
-    "chalk": "^2.4.1",
-    "clear": "^0.1.0",
-    "commander": "^5.1.0",
-    "figlet": "^1.2.1",
-    "gl-dds": "^0.1.0",
-    "jimp": "^0.14.0",
-    "move-file": "^2.0.0",
-    "mv": "^2.1.1",
-    "parse-dds": "^1.2.1",
-    "path": "^0.12.7",
-    "rxjs": "^6.6.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.7",
-    "ts-node": "^8.10.2",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.6"
-  }
+	"name": "loud-toolchain",
+	"version": "1.1.0",
+	"description": "LOUD Toolchain",
+	"main": "./lib/index.js",
+	"private": true,
+	"scripts": {
+		"start": "nodemon src/index.ts",
+		"create": "npm run build && npm run test",
+		"build": "tsc -p .",
+		"test": "npm i -g && loud-toolchain",
+		"refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+	},
+	"author": {
+		"email": "dont@mail.com",
+		"name": "Roy Derks",
+		"url": "https://www.github.com/RAJDerks"
+	},
+	"license": "MIT",
+	"bin": {
+		"loud-toolchain": "./lib/index.js"
+	},
+	"dependencies": {
+		"@types/chalk": "^2.2.0",
+		"@types/clear": "^0.1.0",
+		"@types/figlet": "^1.2.0",
+		"@types/mv": "^2.1.0",
+		"@types/node": "^10.12.10",
+		"binary": "^0.3.0",
+		"buffer-to-arraybuffer": "0.0.5",
+		"chalk": "^2.4.1",
+		"clear": "^0.1.0",
+		"commander": "^5.1.0",
+		"figlet": "^1.2.1",
+		"gl-dds": "^0.1.0",
+		"jimp": "^0.14.0",
+		"move-file": "^2.0.0",
+		"mv": "^2.1.1",
+		"parse-dds": "^1.2.1",
+		"path": "^0.12.7",
+		"rxjs": "^6.6.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.7",
+		"ts-node": "^8.10.2",
+		"tslint": "^5.11.0",
+		"typescript": "^3.1.6"
+	}
 }
