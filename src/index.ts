@@ -4,6 +4,7 @@ import clear from 'clear';
 import figlet from 'figlet';
 import program from 'commander';
 import commandSplitUnits from './commands/split-units';
+import commandMapPreview from './commands/mappreview/map-preview';
 
 // program.exitOverride();
 
@@ -26,6 +27,13 @@ program
   )
   .action((source, destination = 'units_binaries') => {
     commandSplitUnits(source, destination);
+  });
+
+program
+  .command('map-preview <source> [destination]')
+  .description('Extract the map preview from an SCD')
+  .action((source, destination) => {
+    commandMapPreview(source, destination);
   });
 
 program.parse(process.argv);
