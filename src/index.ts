@@ -5,6 +5,7 @@ import figlet from 'figlet';
 import program from 'commander';
 import commandSplitUnits from './commands/split-units';
 import commandMapPreview from './commands/mappreview/map-preview';
+import commandUnusedAssets from './commands/unused-assets';
 
 // program.exitOverride();
 
@@ -34,6 +35,13 @@ program
   .description('Extract the map preview from an SCD')
   .action((source, destination) => {
     commandMapPreview(source, destination);
+  });
+
+program
+  .command('unused-assets <source> <type>')
+  .description('Find unused assets of certain type in source')
+  .action((source, type) => {
+    commandUnusedAssets(source, type);
   });
 
 program.parse(process.argv);

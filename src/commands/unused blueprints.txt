@@ -1,0 +1,68 @@
+unused blueprints 
+ [
+  "BRMT1BTRLproj_proj.bp", // Not found in codebase == pruned // Cybran Tech 1 Battle Tank Rockets \\ there is no Cyb t1 battle tank
+  "BRMT1EXM1proj_proj.bp", // Not found in codebase == pruned // Proton doesn't use this projectile \\ was proton projectile
+  "BRMT3PDROproj_proj.bp", // Not found in codebase == pruned // Agronar projectile \\ this i missed during normalisation
+  "BRNT2HTRLproj_proj.bp", // Not found in codebase == pruned // t2 UEF heavy tank \\ no longer in game
+  "BRNT3MOBproj_proj.bp", // Not found in codebase == pruned // UEF exp Mobile fortress proj  \\ no longer in game
+  "BRNT3SHBMproj_proj.bp", // Not found in codebase == pruned // UEF Tech 3 Ultra Heavy Battle Mech Rocket (mayhem) \\ projectile unused in blueprint
+  "BRNT3SHPDproj_proj.bp", // Not found in codebase == pruned // UEF Tech 3 Super Heavy Point Defense (blockhouse) \\ projectile unused in blueprint
+  "BRNT3WKRLproj_proj.bp", // Not found in codebase == pruned // UEF Tech 3 Battle Mech rockets \\ unused
+  "BROT1BTCLAWproj_proj.bp", // Not found in codebase == pruned // Aoen T1 Battle Tank Clawgun \\ no longer in game
+  "BROT2HTproj_proj.bp", // Not found in codebase == pruned // Aeon T2 Main battle tank \\ no longer in game
+  "BROT2MLproj_proj.bp", // Not found in codebase == pruned // Aeon Tech 2 Missile Launcher \\ no longer in game
+  "BROT2MTproj_proj.bp", // Not found in codebase == pruned // Aeon Tech 2 Medium Tank main gun \\ no longer in game
+  "BROT3BTproj_proj.bp", // Found! G:\Git\Git-LOUD\gamedata\TotalMayhem\mods\TotalMayhem\units\BROT3BT\BROT3BT_unit.bp // Transoma, still in game. FALSE POSITIVE
+  "BROT3COUGproj_proj.bp", // Not found in codebase == pruned // Aeon Cougar EXP \\ no longer in game
+  "BROT3NCMPproj_proj.bp", // Not found in codebase == pruned // Aeon Nova Cat proj \\ no longer in game
+  "BROT3NCMproj_proj.bp", // Not found in codebase == pruned // Aeon Nova Cat proj \\ unused
+  "BROT3NCNlaserproj_proj.bp", // Not found in codebase == pruned // Aeon Nova Cat Blue laser proj \\ unused
+  "BROT3THproj_proj.bp" // Not found in codebase == pruned // Aeon Tech 3 Tank Hunter \\ no longer in game
+]
+
+unused blueprints
+ [
+  "AMTorpedoCluster01_proj.bp",
+  "AMTorpedoClusterSplit01_proj.bp",
+  "ArtemisCannon01_proj.bp",
+  "ArtemisCannon02_proj.bp",
+  "ArtemisWarhead02_proj.bp",
+  "ArtemisWarhead03_proj.bp",
+  "AWMissileCruise01_proj.bp",
+  "CAANanoDartEx_proj.bp",
+  "CIFMissileTactical04_proj.bp",
+  "CitadelHVM01_proj.bp", // false pos
+  "CybAssualtTorp01_proj.bp",
+  "CybranHailfire01_proj.bp", // false pos
+  "CybranHailfire01child_proj.bp", // false pos
+  "CybranHailfire02child_proj.bp", // false pos
+  "DumbMissile01_proj.bp",
+  "DumbMissile02_proj.bp",
+  "DumbMissileChild01_proj.bp",
+  "GargEMPWarhead02_proj.bp", // false pos
+  "GoldAA01_proj.bp",
+  "GoldAA02_proj.bp",
+  "GoliathRocket01_proj.bp",
+  "GoliathTMD01_proj.bp", // false pos ?
+  "Juggfire01_proj.bp", // false pos
+  "MGQAILaserHeavy01_proj.bp",
+  "MGQAIPlasmaArtyChild01_proj.bp",
+  "MGQAIRocketChild01_proj.bp",
+  "MirvSerpentineVChild01_proj.bp",
+  "OmegaOverCharge01_proj.bp",
+  "RedTurbolaser02_proj.bp",
+  "ScorpPulseLaser01_proj.bp",
+  "SDTorpedoNanite01_proj.bp",
+  "SeraHeavyLightningCannonChild01_proj.bp",
+  "ShadowCannon02_proj.bp",
+  "SonicWave01_proj.bp",
+  "SwarmRocket01_proj.bp",
+  "SwarmRocket02_proj.bp",
+  "TIFFragmentationSensorShell05_proj.bp",
+  "UEFACUAntiMatter01_proj.bp",
+  "YCannon01_proj.bp"
+]
+
+				old    /    new
+BlOps = 105.980 - 106.743
+TM = 58748 - 59.749
